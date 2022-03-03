@@ -1,0 +1,166 @@
++--------------------------------------------+
+| Catalog Diff Report                        |
++--------------------------------------------+
+Table `mydb`.`The Voter Table` was dropped
+Table `mydb`.`sys_config` was created
+  columns:
+  - variable of type VARCHAR
+  - value of type VARCHAR
+  - set_time of type TIMESTAMP
+  - set_by of type VARCHAR
+  __
+  indices:
+  - PRIMARY with columns: variable
+  __
+  attributes:
+  - engine: InnoDB
+  - default character set: utf8mb4
+  - default collate: utf8mb4_0900_ai_ci
+  __
+Trigger `mydb`.`sys_config_insert_set_user` was created
+Trigger `mydb`.`sys_config_update_set_user` was created
+View `mydb`.`host_summary` was created
+View `mydb`.`host_summary_by_file_io` was created
+View `mydb`.`host_summary_by_file_io_type` was created
+View `mydb`.`host_summary_by_stages` was created
+View `mydb`.`host_summary_by_statement_latency` was created
+View `mydb`.`host_summary_by_statement_type` was created
+View `mydb`.`innodb_buffer_stats_by_schema` was created
+View `mydb`.`innodb_buffer_stats_by_table` was created
+View `mydb`.`innodb_lock_waits` was created
+View `mydb`.`io_by_thread_by_latency` was created
+View `mydb`.`io_global_by_file_by_bytes` was created
+View `mydb`.`io_global_by_file_by_latency` was created
+View `mydb`.`io_global_by_wait_by_bytes` was created
+View `mydb`.`io_global_by_wait_by_latency` was created
+View `mydb`.`latest_file_io` was created
+View `mydb`.`memory_by_host_by_current_bytes` was created
+View `mydb`.`memory_by_thread_by_current_bytes` was created
+View `mydb`.`memory_by_user_by_current_bytes` was created
+View `mydb`.`memory_global_by_current_bytes` was created
+View `mydb`.`memory_global_total` was created
+View `mydb`.`metrics` was created
+View `mydb`.`processlist` was created
+View `mydb`.`ps_check_lost_instrumentation` was created
+View `mydb`.`schema_auto_increment_columns` was created
+View `mydb`.`schema_index_statistics` was created
+View `mydb`.`schema_object_overview` was created
+View `mydb`.`schema_redundant_indexes` was created
+View `mydb`.`schema_table_lock_waits` was created
+View `mydb`.`schema_table_statistics` was created
+View `mydb`.`schema_table_statistics_with_buffer` was created
+View `mydb`.`schema_tables_with_full_table_scans` was created
+View `mydb`.`schema_unused_indexes` was created
+View `mydb`.`session` was created
+View `mydb`.`session_ssl_status` was created
+View `mydb`.`statement_analysis` was created
+View `mydb`.`statements_with_errors_or_warnings` was created
+View `mydb`.`statements_with_full_table_scans` was created
+View `mydb`.`statements_with_runtimes_in_95th_percentile` was created
+View `mydb`.`statements_with_sorting` was created
+View `mydb`.`statements_with_temp_tables` was created
+View `mydb`.`user_summary` was created
+View `mydb`.`user_summary_by_file_io` was created
+View `mydb`.`user_summary_by_file_io_type` was created
+View `mydb`.`user_summary_by_stages` was created
+View `mydb`.`user_summary_by_statement_latency` was created
+View `mydb`.`user_summary_by_statement_type` was created
+View `mydb`.`version` was created
+View `mydb`.`wait_classes_global_by_avg_latency` was created
+View `mydb`.`wait_classes_global_by_latency` was created
+View `mydb`.`waits_by_host_by_latency` was created
+View `mydb`.`waits_by_user_by_latency` was created
+View `mydb`.`waits_global_by_latency` was created
+View `mydb`.`x$host_summary` was created
+View `mydb`.`x$host_summary_by_file_io` was created
+View `mydb`.`x$host_summary_by_file_io_type` was created
+View `mydb`.`x$host_summary_by_stages` was created
+View `mydb`.`x$host_summary_by_statement_latency` was created
+View `mydb`.`x$host_summary_by_statement_type` was created
+View `mydb`.`x$innodb_buffer_stats_by_schema` was created
+View `mydb`.`x$innodb_buffer_stats_by_table` was created
+View `mydb`.`x$innodb_lock_waits` was created
+View `mydb`.`x$io_by_thread_by_latency` was created
+View `mydb`.`x$io_global_by_file_by_bytes` was created
+View `mydb`.`x$io_global_by_file_by_latency` was created
+View `mydb`.`x$io_global_by_wait_by_bytes` was created
+View `mydb`.`x$io_global_by_wait_by_latency` was created
+View `mydb`.`x$latest_file_io` was created
+View `mydb`.`x$memory_by_host_by_current_bytes` was created
+View `mydb`.`x$memory_by_thread_by_current_bytes` was created
+View `mydb`.`x$memory_by_user_by_current_bytes` was created
+View `mydb`.`x$memory_global_by_current_bytes` was created
+View `mydb`.`x$memory_global_total` was created
+View `mydb`.`x$processlist` was created
+View `mydb`.`x$ps_digest_95th_percentile_by_avg_us` was created
+View `mydb`.`x$ps_digest_avg_latency_distribution` was created
+View `mydb`.`x$ps_schema_table_statistics_io` was created
+View `mydb`.`x$schema_flattened_keys` was created
+View `mydb`.`x$schema_index_statistics` was created
+View `mydb`.`x$schema_table_lock_waits` was created
+View `mydb`.`x$schema_table_statistics` was created
+View `mydb`.`x$schema_table_statistics_with_buffer` was created
+View `mydb`.`x$schema_tables_with_full_table_scans` was created
+View `mydb`.`x$session` was created
+View `mydb`.`x$statement_analysis` was created
+View `mydb`.`x$statements_with_errors_or_warnings` was created
+View `mydb`.`x$statements_with_full_table_scans` was created
+View `mydb`.`x$statements_with_runtimes_in_95th_percentile` was created
+View `mydb`.`x$statements_with_sorting` was created
+View `mydb`.`x$statements_with_temp_tables` was created
+View `mydb`.`x$user_summary` was created
+View `mydb`.`x$user_summary_by_file_io` was created
+View `mydb`.`x$user_summary_by_file_io_type` was created
+View `mydb`.`x$user_summary_by_stages` was created
+View `mydb`.`x$user_summary_by_statement_latency` was created
+View `mydb`.`x$user_summary_by_statement_type` was created
+View `mydb`.`x$wait_classes_global_by_avg_latency` was created
+View `mydb`.`x$wait_classes_global_by_latency` was created
+View `mydb`.`x$waits_by_host_by_latency` was created
+View `mydb`.`x$waits_by_user_by_latency` was created
+View `mydb`.`x$waits_global_by_latency` was created
+Routine `mydb`.`create_synonym_db` was created
+Routine `mydb`.`diagnostics` was created
+Routine `mydb`.`execute_prepared_stmt` was created
+Routine `mydb`.`format_bytes` was created
+Routine `mydb`.`format_statement` was created
+Routine `mydb`.`format_time` was created
+Routine `mydb`.`list_add` was created
+Routine `mydb`.`list_drop` was created
+Routine `mydb`.`ps_is_account_enabled` was created
+Routine `mydb`.`ps_is_consumer_enabled` was created
+Routine `mydb`.`ps_is_instrument_default_enabled` was created
+Routine `mydb`.`ps_is_instrument_default_timed` was created
+Routine `mydb`.`ps_is_thread_instrumented` was created
+Routine `mydb`.`ps_setup_disable_background_threads` was created
+Routine `mydb`.`ps_setup_disable_consumer` was created
+Routine `mydb`.`ps_setup_disable_instrument` was created
+Routine `mydb`.`ps_setup_disable_thread` was created
+Routine `mydb`.`ps_setup_enable_background_threads` was created
+Routine `mydb`.`ps_setup_enable_consumer` was created
+Routine `mydb`.`ps_setup_enable_instrument` was created
+Routine `mydb`.`ps_setup_enable_thread` was created
+Routine `mydb`.`ps_setup_reload_saved` was created
+Routine `mydb`.`ps_setup_reset_to_default` was created
+Routine `mydb`.`ps_setup_save` was created
+Routine `mydb`.`ps_setup_show_disabled` was created
+Routine `mydb`.`ps_setup_show_disabled_consumers` was created
+Routine `mydb`.`ps_setup_show_disabled_instruments` was created
+Routine `mydb`.`ps_setup_show_enabled` was created
+Routine `mydb`.`ps_setup_show_enabled_consumers` was created
+Routine `mydb`.`ps_setup_show_enabled_instruments` was created
+Routine `mydb`.`ps_statement_avg_latency_histogram` was created
+Routine `mydb`.`ps_thread_account` was created
+Routine `mydb`.`ps_thread_id` was created
+Routine `mydb`.`ps_trace_statement_digest` was created
+Routine `mydb`.`ps_trace_thread` was created
+Routine `mydb`.`ps_truncate_all_tables` was created
+Routine `mydb`.`quote_identifier` was created
+Routine `mydb`.`statement_performance_analyzer` was created
+Routine `mydb`.`sys_get_config` was created
+Routine `mydb`.`table_exists` was created
+Routine `mydb`.`version_major` was created
+Routine `mydb`.`version_minor` was created
+Routine `mydb`.`version_patch` was created
+----------------------------------------------
+End of MySQL Workbench Report
